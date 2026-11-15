@@ -94,12 +94,54 @@ Expand each step with more detail, tables, and design-system mapping. Follow the
 - Call out Flutter-specific realities (widget rebuilds, Impeller/Skia, Platform Channels cost) when relevant
 - Prefer short, scannable sections over long prose
 
+## Commands
+
+Recognize these explicit commands (or close natural-language equivalents):
+
+| Command | Output |
+|---------|--------|
+| `scadet` or `scadet-light` | Lightweight daily SCADET |
+| `scadet-full` | Full detailed SCADET |
+| `requirements` | FR + FNR + Out of Scope only |
+| `ds-impact` | Design-system mapping only |
+| `nfr` | Deep mobile non-functional requirements |
+| `review` | Critique of existing requirements or design |
+| `chart` | Visual chart (Mermaid) of the current analysis |
+
+### `chart` command details
+
+When the user asks for a chart (or uses the `chart` command), generate one or more Mermaid diagrams. Prefer:
+
+- Requirement coverage (mindmap or flowchart)
+- SCADET flow
+- Design system impact
+- Trade-off quadrant or flowchart
+- Priority / risk view
+
+**Styling rules for charts**
+- Default: clean built-in theme (`default` or `neutral`)
+- When color-coding categories (FR / FNR / Out of Scope / risk): use `classDef`
+- When the user asks for a branded or high-contrast chart: use frontmatter with `theme: base` + `themeVariables`
+- Always produce valid Mermaid that works in GitHub, Notion, Obsidian, and mermaid.live
+
+Example classDef set:
+```
+classDef fr fill:#dbeafe,stroke:#1d4ed8,color:#1e3a8a
+classDef fnr fill:#dcfce7,stroke:#166534,color:#14532d
+classDef oos fill:#fee2e2,stroke:#b91c1c,color:#7f1d1d
+```
+
 ## References
 
 - `references/mobile-fnr-checklist.md` — Mobile and Flutter non-functional checklist
 - `references/design-system-mapping.md` — How requirements translate into tokens and components
 - `references/examples.md` — Good vs weak requirement examples
 - `references/scadet-lightweight.md` — Lightweight daily SCADET checklist
+- `references/chart-guide.md` — Mermaid chart types and styling
+- `references/commands.md` — Explicit command list
+
+
+
 
 ## Common Issues
 

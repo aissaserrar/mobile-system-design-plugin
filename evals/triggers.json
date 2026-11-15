@@ -1,0 +1,11 @@
+{
+  "skill": "mobile-design-requirements",
+  "test_cases": [
+    {"input": "Define functional and non-functional requirements for this mobile feature", "should_trigger": true},
+    {"input": "Help me write FR, FNR and out of scope for the design system", "should_trigger": true},
+    {"input": "Clarify scope and requirements before we build the Flutter components", "should_trigger": true},
+    {"input": "Review my requirements document for the attendance screen", "should_trigger": true},
+    {"input": "How do I implement a custom painter in Flutter", "should_trigger": false},
+    {"input": "Generate a logo for the app", "should_trigger": false}
+  ]
+}

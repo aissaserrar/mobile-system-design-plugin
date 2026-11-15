@@ -1,0 +1,34 @@
+{
+  "skill": "mobile-design-requirements",
+  "test_cases": [
+    {
+      "name": "club_attendance_feature",
+      "input": "Help me define requirements for an attendance tracking feature in our Flutter app for Islamic clubs. Admins mark present/absent, parents can view history. We need a design system component for the list.",
+      "assertions": [
+        "Produces structured FR with acceptance criteria",
+        "Includes measurable FNR (performance, RTL, offline or accessibility)",
+        "Lists explicit out of scope items",
+        "Includes Design System Impact section"
+      ]
+    },
+    {
+      "name": "ecommerce_product_detail",
+      "input": "We're building a product detail screen for the e-commerce Flutter app. Need FR, non-functional requirements and what is out of scope before we design the components.",
+      "assertions": [
+        "Extracts clear functional requirements",
+        "Defines FNR covering performance and accessibility",
+        "Provides out of scope section",
+        "Maps implications to design system components or tokens"
+      ]
+    },
+    {
+      "name": "vague_request_refinement",
+      "input": "Make requirements for a member management screen. It should be fast and support Arabic.",
+      "assertions": [
+        "Asks clarifying questions or produces strengthened requirements",
+        "Turns vague statements into measurable FNR",
+        "Includes design system considerations"
+      ]
+    }
+  ]
+}

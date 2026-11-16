@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-16
+- Moved commands to real slash commands in `commands/`
+- Renamed plugin to `msd` (commands are now `/msd:*`)
+- Removed `references/commands.md`; added `.gitignore`
+
 ## 2026-11-15
 - Finalized explicit Commands section
 - Enhanced `chart` command with Mermaid styling guidance (themes, classDef, themeVariables)

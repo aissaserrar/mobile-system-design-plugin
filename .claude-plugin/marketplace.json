@@ -1,0 +1,16 @@
+{
+  "name": "mobile-system-design-plugin",
+  "description": "Mobile system design and requirements skills for Claude Code.",
+  "owner": {
+    "name": "Aissa Serrar",
+    "email": "aissa.serrar95@gmail.com",
+    "url": "https://www.linkedin.com/in/aissa-serrar/"
+  },
+  "plugins": [
+    {
+      "name": "msd",
+      "source": "./",
+      "description": "Define clear FR, FNR, and Out of Scope for mobile features using lightweight or full SCADET."
+    }
+  ]
+}

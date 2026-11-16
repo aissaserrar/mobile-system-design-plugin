@@ -1,0 +1,22 @@
+{
+  "name": "msd",
+  "version": "0.1.0",
+  "description": "Define clear FR, FNR, and Out of Scope for mobile features using lightweight or full SCADET, tailored to design systems and Flutter/native constraints.",
+  "author": {
+    "name": "Aissa Serrar",
+    "email": "aissa.serrar95@gmail.com",
+    "url": "https://www.linkedin.com/in/aissa-serrar/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/aissaserrar/mobile-system-design-plugin",
+  "repository": "https://github.com/aissaserrar/mobile-system-design-plugin",
+  "keywords": [
+    "mobile",
+    "flutter",
+    "requirements",
+    "scadet",
+    "design-system",
+    "fnr",
+    "fr"
+  ]
+}

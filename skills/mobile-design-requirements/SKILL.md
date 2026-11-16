@@ -96,17 +96,7 @@ Expand each step with more detail, tables, and design-system mapping. Follow the
 
 ## Commands
 
-Recognize these explicit commands (or close natural-language equivalents):
-
-| Command | Output |
-|---------|--------|
-| `scadet` or `scadet-light` | Lightweight daily SCADET |
-| `scadet-full` | Full detailed SCADET |
-| `requirements` | FR + FNR + Out of Scope only |
-| `ds-impact` | Design-system mapping only |
-| `nfr` | Deep mobile non-functional requirements |
-| `review` | Critique of existing requirements or design |
-| `chart` | Visual chart (Mermaid) of the current analysis |
+Slash commands live in the plugin's `commands/` folder (e.g. `/msd:scadet-full`): `scadet`, `scadet-full`, `requirements`, `ds-impact`, `nfr`, `review`, `chart`. Also honor close natural-language equivalents. Plain `scadet` is the default lightweight mode.
 
 ### `chart` command details
 
@@ -138,7 +128,6 @@ classDef oos fill:#fee2e2,stroke:#b91c1c,color:#7f1d1d
 - `references/examples.md` — Good vs weak requirement examples
 - `references/scadet-lightweight.md` — Lightweight daily SCADET checklist
 - `references/chart-guide.md` — Mermaid chart types and styling
-- `references/commands.md` — Explicit command list
 
 
 
